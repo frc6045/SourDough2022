@@ -55,7 +55,7 @@ talonFXEnhanced1 = new WPI_TalonFX(2);
 talonFXEnhanced1.configFactoryDefault();
 
         /* Invert Motor? and set Break Mode */
-talonFXEnhanced1.setInverted(false);
+talonFXEnhanced1.setInverted(true);
 talonFXEnhanced1.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -72,7 +72,7 @@ talonFXEnhanced2 = new WPI_TalonFX(3);
 talonFXEnhanced2.configFactoryDefault();
 
         /* Invert Motor? and set Break Mode */
-talonFXEnhanced2.setInverted(false);
+talonFXEnhanced2.setInverted(true);
 talonFXEnhanced2.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -93,7 +93,7 @@ talonFXEnhanced3 = new WPI_TalonFX(1);
 talonFXEnhanced3.configFactoryDefault();
 
         /* Invert Motor? and set Break Mode */
-talonFXEnhanced3.setInverted(false);
+talonFXEnhanced3.setInverted(true);
 talonFXEnhanced3.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -110,7 +110,7 @@ talonFXEnhanced4 = new WPI_TalonFX(15);
 talonFXEnhanced4.configFactoryDefault();
 
         /* Invert Motor? and set Break Mode */
-talonFXEnhanced4.setInverted(false);
+talonFXEnhanced4.setInverted(true);
 talonFXEnhanced4.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
