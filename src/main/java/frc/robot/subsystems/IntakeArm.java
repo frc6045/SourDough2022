@@ -73,5 +73,9 @@ spinMotor = new WPI_VictorSPX(12);
     public void my_IntakeArm_Run(double speed){
         armLiftMotor.set(speed);
     }
+
+    public void my_Spin_Motor_Run(double speed) {
+        spinMotor.set(speed);
+    }
 }
 
